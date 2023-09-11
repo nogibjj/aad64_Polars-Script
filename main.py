@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 df = pl.read_csv("iris.csv")
 print(df)
 
-df = pd.read_csv("iris.csv")
-
 def average(data):
     """"This is a mean function."""
     result = data.mean()
