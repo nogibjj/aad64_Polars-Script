@@ -25,11 +25,11 @@ def summary_stats(data):
     return result
 
 print("Mean of Sepal Lengths in iris.csv: " + 
-      str(average(df.select[:, 1])))
+      str(average(df.select('sepal.length'))))
 print("Median of Sepal Lengths in iris.csv: " + 
-      str(med(df.select[:, 1])))
+      str(med(df.select('sepal.length'))))
 print("Standard Deviation of Sepal Lengths in iris.csv: " + 
-      str(standard_deviation(df.select[:, 1])))
+      str(standard_deviation(df.select('sepal.length'))))
 print("Overall summary statistics of full dataset iris.csv: " + 
       "\n" + str(summary_stats(df)))
 
@@ -54,7 +54,7 @@ def visualize_data(data,
         None
     """
     plt.figure(figsize=(10, 6))
-    plt.scatter(data[x_column], data[y_column])
+    plt.stem(data[x_column], data[y_column])
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
