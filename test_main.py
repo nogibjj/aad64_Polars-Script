@@ -1,11 +1,9 @@
-from main import (average, 
-                  med, 
-                  standard_deviation, 
-                  visualize_data)
+from main import (visualize_data)
 import polars as pl
 
 dataset = {"Values": [1, 3, 5, 7, 9]}
 testing_data = pl.DataFrame(dataset)
+#average, med, standard_deviation, 
 
 #def testing_main_avg():
 #    assert average(testing_data.select('Values')) == 5
