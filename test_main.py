@@ -23,10 +23,8 @@ testing_main_std()
 #data = {'x': [1, 2, 3, 4, 5], 'y': [2, 3, 5, 7, 11]}
 testing_data2 = pl.read_csv('iris.csv')
 
-visualize_data(testing_data2, 
-               'sepal.length', 
-               'sepal.width', 
-               'variety',
-               title='Line Plot Example', 
-               xlabel='X-axis', 
-               ylabel='Y-axis')
+# Example Usage:
+visualize_data(testing_data2['petal.width'],
+               title='My Boxplot',
+               xlabel = "Variety of Iris",
+               ylabel = "Petal Width")
