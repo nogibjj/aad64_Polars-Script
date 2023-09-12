@@ -2,7 +2,6 @@
 import polars as pl
 import matplotlib.pyplot as plt
 df = pl.read_csv("iris.csv")
-print(df)
 
 def average(data):
     """"This is a mean function."""
@@ -33,18 +32,15 @@ print("Standard Deviation of Sepal Lengths in iris.csv: " +
 print("Overall summary statistics of full dataset iris.csv: " + 
       "\n" + str(summary_stats(df)))
 
-def visualize_data(data, 
-                   x_column, 
-                   y_column, 
-                   color, 
+def visualize_data(data,  
                    title=None, 
                    xlabel=None, 
                    ylabel=None):
     """
-    Visualize data from a DataFrame using pandas' built-in plotting capabilities.
+    Generate a violin plot using Seaborn.
 
     Args:
-        data (pd.DataFrame): The DataFrame containing the data.
+        data (pl.DataFrame): The DataFrame containing the data.
         x_column (str): The column to be used for the x-axis.
         y_column (str): The column to be used for the y-axis.
         title (str, optional): Title for the plot. Defaults to None.
@@ -55,8 +51,8 @@ def visualize_data(data,
         None
     """
     plt.figure(figsize=(10, 6))
-    plt.scatter(data[x_column], data[y_column], c = color)
+    plt.boxplot(data, notch = True)
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    plt.show(block = True)
+    plt.show()
