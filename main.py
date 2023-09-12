@@ -54,7 +54,7 @@ def visualize_data(data,
         None
     """
     plt.figure(figsize=(10, 6))
-    plt.stem(data[x_column], data[y_column])
+    plt.scatter(data[x_column], data[y_column])
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
