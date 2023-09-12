@@ -25,7 +25,7 @@ testing_data2 = pl.read_csv('iris.csv')
 
 visualize_data(testing_data2, 
                'sepal.length', 
-               'sepal.height', 
+               'sepal.width', 
                'variety',
                title='Line Plot Example', 
                xlabel='X-axis', 
