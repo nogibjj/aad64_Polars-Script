@@ -35,11 +35,13 @@ The contents of this project are:
 As visible below, my project is passing all formatting, linting, and tests:
 
 ### Linting
+For this assignment, I switched over from pylint to ruff, thus, was not able to get a linting score. However, the actions badge provides information about my project passing all phases of the Makefile, including linting.
 <p align = "center"></p>
 
 ### Formatting
-<p align = "center"></p>
+<p align = "center"><img width="1288" alt="Screenshot 2023-09-12 at 7 47 28 PM" src="https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/c1270129-31ff-4837-8eb3-3caad6c59755"></p>
+
 
 ### Testing
-<p align = "center"></p>
+<p align = "center"><img width="407" alt="Screenshot 2023-09-12 at 7 47 53 PM" src="https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/583977cd-4e93-4b19-957c-6b2960cbbd41"></p>
 
