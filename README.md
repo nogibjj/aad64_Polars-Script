@@ -16,7 +16,9 @@ Here, I have created a project which has functions dedicated to doing the follow
 * Displaying the overall `summmary statistics` of a dataset.
 <p align = "center"><img width="618" alt="Screenshot 2023-09-12 at 6 55 27 PM" src="https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/4b81c6a1-4449-4656-97d6-fe17c01487ff"></p>
 
-* `Visualizing` data in the form of a _boxplot_ (below is the function run on a small, example dataset created in the ![image](https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/26b476a1-1784-4688-be8b-afdafa6a0c9a)
+* `Visualizing` data in the form of a _boxplot_
+
+![image](https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/26b476a1-1784-4688-be8b-afdafa6a0c9a)
 
 
 
