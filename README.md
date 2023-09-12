@@ -6,6 +6,8 @@ Week 3 Mini-Project
 
 This assignment is designed to introduce us to polars descriptive scripts. For the same, the main edit made was to add polars==2.1.0 to my requirements.txt file.
 
+![image](https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/26b476a1-1784-4688-be8b-afdafa6a0c9a)
+
 Here, I have created a project which calculates the mean of a given dataset input, and returns the result. I have also created a test file to ensure that the mean function is correctly functioning (using an assert function).
 
 The contents of this project are: 
