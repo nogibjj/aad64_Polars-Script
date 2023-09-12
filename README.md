@@ -8,12 +8,17 @@ Here, I have created a project which has functions dedicated to doing the follow
 * Calculating the `mean`,
 * Calculating the `median`,
 * Calculating the `standard deviation`,
+
+
+<p align = "center"><img width="467" alt="Screenshot 2023-09-12 at 6 55 15 PM" src="https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/fb862ae7-ac3f-40ad-8276-40f7c900e67e"></p>
+
+
 * Displaying the overall `summmary statistics` of a dataset.
-<p align = "center"></p>
+<p align = "center"><img width="618" alt="Screenshot 2023-09-12 at 6 55 27 PM" src="https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/4b81c6a1-4449-4656-97d6-fe17c01487ff"></p>
 
-* `Visualizing` data in the form of a _boxplot_ (below is the function run on a small, example dataset created in the [test_main.py](https://github.com/nogibjj/aad64_Polars-Script/edit/main/test_main.py) file).
+* `Visualizing` data in the form of a _boxplot_ (below is the function run on a small, example dataset created in the ![image](https://github.com/nogibjj/aad64_Polars-Script/assets/143753050/26b476a1-1784-4688-be8b-afdafa6a0c9a)
 
-<p align = "center"></p>
+
 
 I have also created a test file to ensure that the mean, median, and standard deviation functions are correctly functioning (using asserts).
 
