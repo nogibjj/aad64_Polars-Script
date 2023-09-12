@@ -36,7 +36,7 @@ print("Overall summary statistics of full dataset iris.csv: " +
 def visualize_data(data, 
                    x_column, 
                    y_column, 
-                   colour, 
+                   color, 
                    title=None, 
                    xlabel=None, 
                    ylabel=None):
