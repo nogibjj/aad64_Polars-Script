@@ -36,6 +36,7 @@ print("Overall summary statistics of full dataset iris.csv: " +
 def visualize_data(data, 
                    x_column, 
                    y_column, 
+                   colour, 
                    title=None, 
                    xlabel=None, 
                    ylabel=None):
@@ -54,7 +55,7 @@ def visualize_data(data,
         None
     """
     plt.figure(figsize=(10, 6))
-    plt.scatter(data[x_column], data[y_column])
+    plt.scatter(data[x_column], data[y_column], c = color)
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
