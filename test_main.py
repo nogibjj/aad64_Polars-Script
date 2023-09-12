@@ -8,13 +8,13 @@ dataset = {"Values": [1, 3, 5, 7, 9]}
 testing_data = pl.DataFrame(dataset)
 
 def testing_main_avg():
-    assert average(testing_data['Values']) == 5
+    assert average(testing_data.select('Values')) == 5
 
 def testing_main_med():
-    assert med(testing_data['Values']) == 5
+    assert med(testing_data.select('Values')) == 5
 
 def testing_main_std():
-    assert standard_deviation(testing_data['Values']) == 3.1622776601683795
+    assert standard_deviation(testing_data.select('Values')) == 3.1622776601683795
 
 testing_main_avg()
 testing_main_med()
